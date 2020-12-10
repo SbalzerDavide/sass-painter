@@ -1,0 +1,30 @@
+header{
+    background-color: $black;
+    padding: 10px 0;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        li{
+            margin-left: 15px;
+        }
+    }
+    a{
+        font-size: 12px;
+        text-decoration: none;
+        color: $text-gray;
+        &:hover{
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+    i{
+        color: $blue;
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .menu{
+
+    }
+}

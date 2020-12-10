@@ -1,0 +1,25 @@
+@mixin btn{
+    padding: 5px 20px;
+    color: $white;
+    background-color: $blue;
+    border: 1px solid $blue;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background-color: $lightblue;
+        border: 1px solid $lightblue;
+    }
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+button {
+    .btn{
+        @include btn;
+
+    }
+}

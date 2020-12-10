@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: $white;
+    font-family: $font-primary;
+    font-size: $base-size;
+}
+
+li{
+    list-style: none;
+}
