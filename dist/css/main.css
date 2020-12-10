@@ -25,11 +25,9 @@ button .btn {
   background-color: #009cff;
   border: 1px solid #009cff;
 }
-
 button .btn:focus {
   outline: none;
 }
-
 button .btn:hover {
   background-color: #34b0ff;
   border: 1px solid #34b0ff;
@@ -37,34 +35,66 @@ button .btn:hover {
 
 header {
   background-color: #000;
+}
+header .top {
   padding: 10px 0;
 }
-
-header ul {
+header .top ul {
   width: 100%;
   display: flex;
   justify-content: right;
   align-items: center;
 }
-
-header ul li {
+header .top ul li {
   margin-left: 15px;
 }
-
 header a {
   font-size: 12px;
   text-decoration: none;
   color: #989898;
 }
-
 header a:hover {
   color: #fff;
   text-decoration: underline;
 }
-
 header i {
   color: #009cff;
   font-size: 14px;
   margin-right: 5px;
 }
+header .menu ul {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+header .menu ul li {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  height: 100%;
+  margin-right: 15px;
+  line-height: 100%;
+}
+header .menu ul li:not(.logo):hover {
+  background-color: #e6e6e6;
+  color: #333333;
+}
+header .menu img {
+  position: relative;
+  bottom: 2px;
+  height: 1.5rem;
+}
+header .menu i {
+  margin-left: 2px;
+  font-size: 10px;
+  color: #989898;
+}
 
+main .hero {
+  background-image: url("../../image/hero.jpg");
+  background-color: #fff;
+  height: 400px;
+}
