@@ -14,11 +14,9 @@ header{
     }
     a{
         font-size: 12px;
-        text-decoration: none;
         color: $text-gray;
         &:hover{
             color: $white;
-            text-decoration: underline;
         }
     }
     i{

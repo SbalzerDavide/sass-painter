@@ -14,23 +14,44 @@ li {
   list-style: none;
 }
 
+h3, h4 {
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 .container {
   width: 1100px;
   margin: 0 auto;
 }
 
-button .btn {
+button.btn-primary {
   padding: 5px 20px;
   color: #fff;
   background-color: #009cff;
   border: 1px solid #009cff;
+  text-transform: uppercase;
 }
-button .btn:focus {
+button.btn-primary:focus {
   outline: none;
 }
-button .btn:hover {
+button.btn-primary:hover {
   background-color: #34b0ff;
   border: 1px solid #34b0ff;
+}
+
+.gray {
+  color: #989898;
+}
+
+img {
+  max-width: 100%;
 }
 
 header {
@@ -50,12 +71,10 @@ header .top ul li {
 }
 header a {
   font-size: 12px;
-  text-decoration: none;
   color: #989898;
 }
 header a:hover {
   color: #fff;
-  text-decoration: underline;
 }
 header i {
   color: #009cff;
@@ -93,8 +112,67 @@ header .menu i {
   color: #989898;
 }
 
-main .hero {
+.hero {
   background-image: url("../../image/hero.jpg");
+  background-position: center;
   background-color: #fff;
-  height: 400px;
+}
+.hero .container {
+  position: relative;
+}
+.hero .left {
+  margin-left: 250px;
+  padding: 40px 0;
+}
+.hero li {
+  margin-bottom: 15px;
+}
+.hero li i {
+  color: #989898;
+  margin-right: 2px;
+}
+.hero .download {
+  display: inline-flex;
+  align-items: center;
+  background-color: #666666;
+  padding: 10px;
+}
+.hero .download .text {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+.hero .download .icon {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.hero .right {
+  position: absolute;
+  bottom: 0;
+  right: -40px;
+  padding: 50px 15px;
+  background-color: #000;
+  height: 95%;
+  width: 350px;
+}
+.hero .right .gray {
+  margin-top: 15px;
+}
+.hero .right button {
+  margin: 15px 0;
+}
+.hero .right .offert {
+  padding: 10px;
+  color: #000;
+  background: #fff;
+}
+.hero .right .offert a {
+  color: #34b0ff;
+}
+.hero .right .offert p {
+  margin-bottom: 10px;
+}
+.hero .right .day {
+  position: absolute;
+  top: 30px;
+  right: 10px;
 }

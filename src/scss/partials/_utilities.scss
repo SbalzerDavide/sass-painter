@@ -18,8 +18,18 @@
 }
 
 button {
-    .btn{
+    &.btn-primary{
         @include btn;
-
+        text-transform: uppercase;
     }
 }
+
+//typography
+.gray{
+    color: $text-gray
+}
+
+img{
+    max-width: 100%;
+}
+

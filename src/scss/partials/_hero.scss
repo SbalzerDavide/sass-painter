@@ -1,0 +1,67 @@
+.hero{
+    background-image: url('../../image/hero.jpg');
+    background-position: center;
+    background-color: $white;
+    .container{
+        position: relative;
+    }
+    .left{
+        margin-left: 250px;
+        padding: 40px 0;
+    }
+    li{
+        margin-bottom: 15px;
+        i{
+            color: $text-gray;
+            margin-right: 2px;
+        }
+    }
+    .download{
+        display: inline-flex;
+        align-items: center;
+        background-color: $gray;
+        padding: 10px;
+        .text{
+            border-right: 1px solid $white;
+            padding-right: 10px;
+            
+        }
+        .icon{
+            margin-left: 10px;
+            font-size: 30px;
+        }
+    }
+    .right{
+        position: absolute;
+        bottom: 0;
+        right: -40px;
+        padding: 50px 15px;
+        background-color: $black;
+        height: 95%;
+        width: 350px;
+        .gray{
+            margin-top: 15px;
+        }
+        button{
+            margin: 15px 0;
+
+        }
+        .offert{
+            padding: 10px;
+            color: $black;
+            background: $white;
+            a{
+                color: $lightblue;
+            }
+            p{
+                margin-bottom: 10px;
+            }
+        }
+        .day{
+            position: absolute;
+            top: 30px;
+            right: 10px;
+           
+        }
+    }
+}
