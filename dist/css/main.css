@@ -391,10 +391,11 @@ main .attachment.two {
 }
 
 .map {
+  position: relative;
   color: #333333;
-  padding: 60px 0;
+  padding: 60px 0 80px;
   background-color: #e6e6e6;
-  font-size: 14px;
+  font-size: 13px;
 }
 .map .box-container {
   display: flex;
@@ -404,9 +405,73 @@ main .attachment.two {
   color: #333333;
 }
 .map .box-container li {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 .map .box-container li:first-child {
   font-size: 18px;
   margin: 20px 0;
+}
+.map .social {
+  position: absolute;
+  bottom: 20px;
+  left: 70%;
+}
+.map .social ul {
+  display: flex;
+}
+.map .social ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33px;
+  width: 33px;
+  margin: 10px;
+  cursor: pointer;
+}
+.map .social ul li i {
+  font-size: 20px;
+  color: #fff;
+}
+.map .social ul .fac {
+  background-color: #3b5998;
+}
+.map .social ul .insta {
+  background-color: #e4405f;
+}
+.map .social ul .twit {
+  background-color: #1da1f2;
+}
+.map .social ul .yout {
+  background-color: #cd201f;
+}
+.map .social ul .pint {
+  background-color: #bd081c;
+}
+.map .social ul .blog {
+  background-color: #ff8d00;
+}
+
+footer {
+  background-color: #222222;
+  padding: 10px 0;
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer img {
+  height: 50px;
+  margin-right: 30px;
+}
+footer .footer li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 14px;
+}
+footer .footer li a {
+  color: #989898;
+}
+footer .footer li a:hover {
+  color: #fff;
 }

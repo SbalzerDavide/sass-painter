@@ -1,8 +1,9 @@
 .map{
+    position: relative;
     color: $text-dark;
-    padding: 60px 0;
+    padding: 60px 0 80px;
     background-color: $lightgray;
-    font-size: 14px;
+    font-size: 13px;
     .box-container{
         display: flex;
         justify-content: space-between;
@@ -10,11 +11,50 @@
             color: $text-dark;
         }
         li{
-            margin: 5px 0;
+            margin: 10px 0;
         }
         li:first-child{
             font-size: 18px;
             margin: 20px 0;
+        }
+    }
+    .social{
+        position: absolute;
+        bottom: 20px;
+        left: 70%;
+        ul{
+            display: flex;
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 33px;
+                width: 33px;
+                margin: 10px;
+                cursor: pointer;
+                i{
+                    font-size: 20px;
+                    color: $white;
+                }
+            }
+            .fac{
+                background-color: #3b5998;
+            }
+            .insta{
+                background-color: #e4405f;
+            }
+            .twit{
+                background-color: #1da1f2;
+            }
+            .yout{
+                background-color: #cd201f;
+            }
+            .pint{
+                background-color: #bd081c;
+            }
+            .blog{
+                background-color: #ff8d00;
+            }
         }
     }
 }

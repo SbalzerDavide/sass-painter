@@ -346,7 +346,7 @@
                                 {{section.section}}
                             </li>
                             <li v-for="link in section.element">
-                                <a href="">
+                                <a :href="link.path">
                                     {{ link.name}}
                                 </a>
                             </li>
@@ -354,18 +354,54 @@
                     </div>
                 </div>
                 <div class="social">
-                    
+                    <ul>
+                        <li class="insta">
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li class="fac">
+                            <i class="fab fa-facebook-f"></i>
+                        </li>
+                        <li class="twit">
+                            <i class="fab fa-twitter"></i>
+                        </li>
+                        <li class="yout">
+                            <i class="fab fa-youtube"></i>
+                        </li>
+                        <li class="pint">
+                            <i class="fab fa-pinterest-p"></i>
+                        </li>
+                        <li class="blog">
+                            <i class="fas fa-rss"></i>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
-
-
-
-
         </main>
 
         <footer>
+            <div class="container footer">
+                <div class="left">
+                    <img src="./image/corelAdvantage.png" alt="corel">
+                    <img src="./image/logo-bbb.png" alt="bbb">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookies</a>
+                        </li>
+                        <li>
+                            Copyright &copy 2020 Corel Company. All right reserve.
+                        </li>
 
+                    </ul>
+                </div>
+            </div>
         </footer>
     </div>
 
