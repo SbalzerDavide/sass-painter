@@ -1,3 +1,16 @@
 main{
-    
+    .second-menu{
+        background-color: $lightgray;
+        color: $gray;
+        ul{
+            height: 60px;
+            li{ 
+                font-size: 18px;
+                text-transform: uppercase;
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.671);
+                }
+            }
+        }
+    }
 }

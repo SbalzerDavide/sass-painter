@@ -14,8 +14,8 @@ li {
   list-style: none;
 }
 
-h3, h4 {
-  font-weight: 600;
+h2, h3, h4 {
+  font-weight: 500;
   padding: 15px 0;
 }
 
@@ -54,6 +54,20 @@ img {
   max-width: 100%;
 }
 
+.menu ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+  height: 100%;
+  line-height: 100%;
+}
+
 header {
   background-color: #000;
 }
@@ -82,20 +96,10 @@ header i {
   margin-right: 5px;
 }
 header .menu ul {
-  width: 100%;
   height: 40px;
-  display: flex;
-  align-items: center;
 }
 header .menu ul li {
   font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 8px;
-  height: 100%;
-  margin-right: 15px;
-  line-height: 100%;
 }
 header .menu ul li:not(.logo):hover {
   background-color: #e6e6e6;
@@ -110,6 +114,21 @@ header .menu i {
   margin-left: 2px;
   font-size: 10px;
   color: #989898;
+}
+
+main .second-menu {
+  background-color: #e6e6e6;
+  color: #666666;
+}
+main .second-menu ul {
+  height: 60px;
+}
+main .second-menu ul li {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+main .second-menu ul li:hover {
+  background-color: rgba(255, 255, 255, 0.671);
 }
 
 .hero {
@@ -154,9 +173,6 @@ header .menu i {
   height: 95%;
   width: 350px;
 }
-.hero .right .gray {
-  margin-top: 15px;
-}
 .hero .right button {
   margin: 15px 0;
 }
@@ -175,4 +191,69 @@ header .menu i {
   position: absolute;
   top: 30px;
   right: 10px;
+}
+.hero .name {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  font-size: 10px;
+  color: #e6e6e6;
+}
+
+.intro {
+  background-image: url("../../image/led.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+.intro .top {
+  padding: 0 80px;
+}
+.intro .guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.intro .guide i {
+  color: #989898;
+  font-size: 30px;
+  margin-right: 15px;
+}
+.intro .guide a {
+  color: white;
+}
+.intro .example {
+  position: relative;
+  border-radius: 20px;
+  background-image: url("../../image/intro-bg.jpg");
+  width: 80%;
+  height: 550px;
+  margin: 0 auto;
+}
+.intro .example .image {
+  height: 100%;
+  overflow: hidden;
+}
+.intro .example:hover .play {
+  color: #989898;
+  border: 3px solid #989898;
+}
+.intro .example .play {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 20px;
+}
+.intro .example .play i {
+  font-size: 60px;
 }

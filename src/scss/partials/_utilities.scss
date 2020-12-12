@@ -33,3 +33,19 @@ img{
     max-width: 100%;
 }
 
+.menu{
+    ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        li{ 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 25px;
+            height: 100%;
+            line-height: 100%;
+        }
+    }
+}
+
