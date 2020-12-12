@@ -1,0 +1,22 @@
+.flexible{
+    padding: 100px 0;
+    background-color: $darkgray;
+    text-align: center;
+    .example{
+        margin: 50px 0;
+    }
+    .brushes,
+    .canvas{
+        text-align: left;
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+        .text{
+            flex-basis: 50%;
+        }
+        .image{
+            padding: 0 40px;
+        }
+    }
+    
+}

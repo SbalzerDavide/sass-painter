@@ -26,6 +26,10 @@ a:hover {
   text-decoration: underline;
 }
 
+p {
+  line-height: 1.8rem;
+}
+
 .container {
   width: 1100px;
   margin: 0 auto;
@@ -66,6 +70,46 @@ img {
   padding: 0 25px;
   height: 100%;
   line-height: 100%;
+}
+
+.slider {
+  position: relative;
+  padding: 0 70px;
+}
+.slider .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #e74500;
+  font-size: 30px;
+}
+.slider .arrow.left {
+  left: 0;
+}
+.slider .arrow.left i {
+  position: relative;
+  right: 2px;
+}
+.slider .arrow.right {
+  right: 0;
+}
+.slider .arrow.right i {
+  position: relative;
+  left: 2px;
+}
+
+.attachment {
+  height: 500px;
+  background-attachment: fixed;
+}
+.attachment.one {
+  background-image: url("../../image/image-bg-02.jpg");
 }
 
 header {
@@ -256,4 +300,37 @@ main .second-menu ul li:hover {
 }
 .intro .example .play i {
   font-size: 60px;
+}
+
+.intelligence {
+  color: #333333;
+  text-align: center;
+  padding: 100px 0 30px;
+}
+.intelligence p {
+  margin: 10px 0 30px;
+}
+
+.flexible {
+  padding: 100px 0;
+  background-color: #222222;
+  text-align: center;
+}
+.flexible .example {
+  margin: 50px 0;
+}
+.flexible .brushes,
+.flexible .canvas {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.flexible .brushes .text,
+.flexible .canvas .text {
+  flex-basis: 50%;
+}
+.flexible .brushes .image,
+.flexible .canvas .image {
+  padding: 0 40px;
 }
