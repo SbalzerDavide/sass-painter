@@ -13,4 +13,14 @@ main{
             }
         }
     }
+    .attachment{
+        &.one{
+            background-image: url('../../image/image-bg-02.jpg');
+        }
+        &.two{
+            background-image: url('../../image/image-bg-01.jpg');
+        }
+        
+    }
+    
 }

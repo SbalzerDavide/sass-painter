@@ -1,0 +1,17 @@
+.brushpacks{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-image: url('../../image/brushpacks-bg.jpg');
+    .box{
+        background-color: $white;
+        max-width: 400px;
+        padding: 50px 30px;
+        margin: 0 10px;
+        text-align: center;
+        color: $text-dark;
+        a{
+            color: $lightblue;
+        }
+    }
+}

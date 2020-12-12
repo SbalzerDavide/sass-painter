@@ -86,9 +86,6 @@ img{
 //attachment
 .attachment{
     height: 500px;
-    background-attachment: fixed;
-    &.one{
-        background-image: url('../../image/image-bg-02.jpg');
-    }
+    background-attachment: fixed;    
 }
 
